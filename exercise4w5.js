@@ -4,7 +4,7 @@ function totalDigitRekursif(angka) {
     if(toStr.length > 0) {
         return parseInt(toStr[0]) + totalDigitRekursif(toStr.slice(1));
     } else {
-        return 0
+        return 0;
     }
   }
   
